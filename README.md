@@ -10,8 +10,8 @@ The ESP is probably overkill for this project, any arduino-like board should suf
 ```
 VIN - 3V3
 GND - GND
-SCL - 4
-SDA - 5
+SDA - 4
+SCL - 5
 ```
 Note that the pins used for SCL and SDA should support I2C on your board.
 

@@ -4,8 +4,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-#define SDA_PIN 5
-#define SCL_PIN 4
+#define SDA_PIN 4
+#define SCL_PIN 5
 
 #define MEASUREMENT_INTERVAL_MS 60000  // One minute
 SFE_BMP180 sensor;
