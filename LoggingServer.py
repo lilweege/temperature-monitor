@@ -40,7 +40,7 @@ class Handler(BaseHTTPRequestHandler):
             now = datetime.now(tz=ZoneInfo("America/Toronto"))
             curr_date = now.strftime("%Y-%m-%d")
             curr_time = now.strftime("%H:%M:%S")
-            log_fn = f"{curr_date}"
+            log_fn = f"{curr_date}.txt"
             with open(os.path.join(log_dir, log_fn), "a") as log_file:
                 log_file.write(f"{curr_time} {temperature:.2f}\n")
         except:
